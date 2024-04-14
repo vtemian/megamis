@@ -15,8 +15,8 @@ contract DeployV1 is Script {
 
         vm.startBroadcast(privateKey);
 
-        address proxy = Upgrades.deployTransparentProxy(
-            "../src/Megamis.sol",
+        Upgrades.deployTransparentProxy(
+            "Megamis.sol",
             deployer,
             abi.encodeCall(Megamis.initialize, (deployer))
         );

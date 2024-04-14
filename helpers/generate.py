@@ -11,7 +11,7 @@ def main(tokens, url):
 		metadata = {
 			"name": f"Megami #{token_id}",
 			"description": f"",
-			"image": f"{url}/{token_id}.png",
+			"image_url": f"{url}/{token_id}.png",
 			"attributes": []
 		}
 
