@@ -17,6 +17,7 @@ contract Megamis is Initializable, ERC721Upgradeable, OwnableUpgradeable {
     function initialize(address initialOwner) initializer public {
         __ERC721_init("Megamis", "MGM");
         __Ownable_init(initialOwner);
+        baseTokenURI = "https://m.megam.is/";
     }
 
     function setBaseURI(string memory baseURI) external onlyOwner {
