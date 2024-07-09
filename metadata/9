@@ -1,6 +1,8 @@
 {
     "name": "Megami #9",
-    "description": "",
-    "image_url": "https://m.megam.is/9.png",
+    "description": "\u26a1\ufe0f\u26a1\ufe0f\u26a1\ufe0f #9 \u26a1\ufe0f\u26a1\ufe0f\u26a1\ufe0f ",
+    "image": "https://m.megam.is/9.png",
+    "external_url": "https://www.sandbox.game/model-viewer-light/?assetId=05063596-2c51-4152-8838-ec916c129bb9",
+    "animation_url": "https://www.sandbox.game/model-viewer-light/?assetId=05063596-2c51-4152-8838-ec916c129bb9",
     "attributes": []
 }
